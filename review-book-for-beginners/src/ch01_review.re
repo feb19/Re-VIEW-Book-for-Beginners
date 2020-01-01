@@ -109,10 +109,11 @@ rbenv rehash
 
 == review-init コマンドのインストールと実行
 
-いよいよ @<code>{review-init} コマンドを使えるようにして、Re:VIEW 形式での必要なファイルを出力します。以下を一行ずつターミナルで実行していきます。
+いよいよ @<code>{review-init} コマンドを使えるようにして、Re:VIEW 形式での必要なファイルを出力します。以下を一行ずつターミナルで実行していきます。先ほど準備した Re:VIEW の Docker イメージのバージョンに合わせて、4.0.0 を指定します。
 
 //list[install-review-init][review gemをインストールする]{
-gem install review
+gem install review -v "4.0.0"
+
 rbenv rehash
 //}
 
