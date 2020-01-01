@@ -22,11 +22,11 @@ language: ja
 
 # 書名
 # 読みを入れる例 booktitle: {name: "Re:VIEW EPUBサンプル", file-as: "リビューイーパブサンプル"}
-booktitle: 技術本を簡単に作成する方法 Re:VIEW Book for Beginners
+booktitle: 作れる！技術書 Re:VIEW Book for Beginners
 
 # 著者名。「, 」で区切って複数指定できる
 # 読みを入れる例 aut: [{name: "青木峰郎", file-as: "アオキミネロウ"}, {name: "武藤健志", file-as: "ムトウケンシ"}, {name: "高橋征義", file-as: "タカハシマサヨシ"}, {name: "角征典", file-as: "カドマサノリ"}]
-aut: ["高橋伸弥"]
+aut: ["髙橋伸弥"]
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -122,13 +122,13 @@ toc: true
 #
 # 表紙に配置し、書籍の影絵にも利用する画像ファイル。省略した場合はnull (画像を使わない)。画像ディレクトリ内に置いてもディレクトリ名は不要(例: cover.jpg)
 # PDFMaker 固有の表紙設定は pdfmaker セクション内で上書き可能
-coverimage: cover.jpg
+coverimage: cover_a4_ol.ai
 #
 # 表紙の後に大扉ページを作成するか。省略した場合はtrue (作成する)
 # titlepage: true
 #
 # 自動生成される大扉ページを上書きするファイル。ファイル名を指定すると大扉として入る (PDFMaker向けにはLaTeXソース断片、EPUBMaker向けにはHTMLファイル)
-# titlefile: null
+titlefile: title.tex
 #
 # 原書大扉ページにするファイル。ファイル名を指定すると原書大扉として入る (PDFMaker向けにはLaTeXソース断片、EPUBMaker向けにはHTMLファイル)
 # originaltitlefile: null
